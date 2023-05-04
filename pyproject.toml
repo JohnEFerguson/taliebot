@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "taliebot"
+version = "0.1.0"
+description = ""
+authors = ["jack <john.everett.ferguson@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.3"
+tweepy = "^4.14.0"
+torch = "^2.0.0"
+transformers = "^4.28.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
